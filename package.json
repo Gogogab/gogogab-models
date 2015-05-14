@@ -1,0 +1,31 @@
+{
+  "name": "gogogab-models",
+  "version": "1.0.0",
+  "description": "mongoose models for gogogab server",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gogogab/gogogab-models.git"
+  },
+  "keywords": [
+    "mongoose",
+    "gogogab"
+  ],
+  "author": "Rahul Devaskar <apostopher@gmail.com> (http://apostopher.com/)",
+  "license": "private",
+  "bugs": {
+    "url": "https://github.com/Gogogab/gogogab-models/issues"
+  },
+  "homepage": "https://github.com/Gogogab/gogogab-models",
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "mocha": "^2.2.5"
+  },
+  "dependencies": {
+    "lodash": "^3.8.0",
+    "mongoose": "^4.0.3"
+  }
+}
