@@ -1,7 +1,7 @@
 'use strict';
 
-var Star = require('./star');
-var Gab = require('./gab');
+var Star = require('./src/star');
+var Gab = require('./src/gab');
 
 module.exports = {
   Star: Star,
