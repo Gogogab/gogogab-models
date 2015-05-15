@@ -2,7 +2,9 @@
 
 This repo holds mongoose models for server code.
 
-![Image of models](http://m.rgbimg.com/cache1ntWeh/users/e/er/ervinbacik/600/meKTbyK.jpg)
+<p align="center">
+  <img src="http://m.rgbimg.com/cache1ntWeh/users/e/er/ervinbacik/600/meKTbyK.jpg"/>
+</p>
 
 ## How to use
 
