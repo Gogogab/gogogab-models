@@ -6,7 +6,7 @@ This repo holds mongoose models for server code.
 
 ## How to use
 
-Add the following line to your `package.json` files `dependencies` section.
+Add the following line to your `package.json` file's `dependencies` section.
 `"gogogab-models": "git+ssh://git@github.com:Gogogab/gogogab-models.git#master"`
 
 ```javascript
