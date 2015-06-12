@@ -8,9 +8,14 @@ var FeedItemSchema = new Schema({
   provider: {default: '', type: String, index: true},
   socialId: {type: String, index: true},
   fbUpdate: {},
+  tweet: {},
+  itemDepth: Number,
+  socialScore: Number,
+  inReplyTo: {type: Schema.Types.ObjectId, ref: 'FeedItem'},
   user: {
     socialId: {type: String, index: true},
-    profileImageURL: String
+    profileImageURL: String,
+    name: String
   },
   text: {type: String, default: '', index: true}
 }, {
