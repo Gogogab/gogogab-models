@@ -11,7 +11,7 @@ var FeedItemSchema = new Schema({
   tweet: {},
   itemDepth: Number,
   socialScore: Number,
-  inReplyTo: {type: Schema.Types.ObjectId, ref: 'FeedItem'},
+  inReplyTo: String,
   user: {
     socialId: {type: String, index: true},
     profileImageURL: String,
