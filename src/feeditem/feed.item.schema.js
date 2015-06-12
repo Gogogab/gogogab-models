@@ -7,7 +7,7 @@ var FeedItemSchema = new Schema({
   gab: {type: Schema.Types.ObjectId, ref: 'Gab', index: true},
   provider: {default: '', type: String, index: true},
   socialId: {type: String, index: true},
-  fbUpdate: {},
+  update: {},
   tweet: {},
   isHero: Boolean,
   itemDepth: Number,
