@@ -13,10 +13,19 @@ module.exports = new Schema({
     name: String,
     id: String
   },
+  twitter: {
+    name: String,
+    id: String
+  },
   tokens: {
     facebook: {
       refreshToken: String,
       token: String
+    },
+    twitter: {
+      token: String,
+      secret: String
     }
-  }
+  },
+  apnIds: [String]
 });
