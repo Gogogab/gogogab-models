@@ -1,5 +1,7 @@
 'use strict';
 
+var Bluebird = require('bluebird');
+var mongoose = require('mongoose');
 var Star = require('./src/star');
 var starSchema = require('./src/star/star.schema');
 var Gab = require('./src/gab');
@@ -10,6 +12,13 @@ var FeedItem = require('./src/feeditem');
 var feedItemSchema = require('./src/feeditem/feed.item.schema');
 var FeedItemPage = require('./src/feeditempage');
 var feedItemPageSchema = require('./src/feeditempage/feed.item.page.schema');
+
+// PromisifyAll
+Bluebird.promisifyAll(mongoose.Query);
+Bluebird.promisifyAll(mongoose.Query.prototype);
+
+Bluebird.promisifyAll(mongoose.Model);
+Bluebird.promisifyAll(mongoose.Model.prototype);
 
 module.exports = {
   Star: Star,
