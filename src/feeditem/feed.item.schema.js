@@ -8,10 +8,8 @@ var FeedItemSchema = new Schema({
   provider: {default: '', type: String, index: true},
   socialId: {type: String, index: true},
   update: {},
-  tweet: {},
   isHero: Boolean,
   feedDepth: Number,
-  socialScore: Number,
   inReplyTo: String,
   user: {
     socialId: {type: String, index: true},
