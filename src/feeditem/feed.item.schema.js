@@ -13,6 +13,7 @@ var FeedItemSchema = new Schema({
   inReplyTo: String,
   user: {
     socialId: {type: String, index: true},
+    socialHandle: String,
     profileImageURL: String,
     name: String
   },
