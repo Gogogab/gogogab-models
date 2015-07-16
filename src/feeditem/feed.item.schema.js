@@ -10,7 +10,7 @@ var FeedItemSchema = new Schema({
   update: {},
   isHero: Boolean,
   feedDepth: Number,
-  inReplyTo: String,
+  inReplyTo: {type: String, index: true},
   user: {
     socialId: {type: String, index: true},
     socialHandle: String,
