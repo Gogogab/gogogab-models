@@ -18,8 +18,6 @@ var FeedItemSchema = new Schema({
     name: String
   },
   text: {type: String, default: '', index: true}
-}, {
-  strict: false
 });
 
 module.exports = FeedItemSchema;
