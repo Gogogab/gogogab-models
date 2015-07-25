@@ -15,7 +15,8 @@ var FeedItemSchema = new Schema({
     socialId: {type: String, index: true},
     socialHandle: String,
     profileImageURL: String,
-    name: String
+    name: String,
+    verified: Boolean
   },
   text: {type: String, default: '', index: true}
 });
