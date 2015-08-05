@@ -16,7 +16,8 @@ var FeedItemSchema = new Schema({
     socialHandle: String,
     profileImageURL: String,
     name: String,
-    verified: Boolean
+    verified: Boolean,
+    followers: Number
   },
   text: {type: String, default: '', index: true}
 });
