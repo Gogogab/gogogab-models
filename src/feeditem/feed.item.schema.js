@@ -9,6 +9,7 @@ var FeedItemSchema = new Schema({
   socialId: {type: String, index: true},
   update: {},
   isHero: Boolean,
+  exclusive: {type: Boolean, default: false},
   feedDepth: Number,
   inReplyTo: {type: String, index: true},
   user: {

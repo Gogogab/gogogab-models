@@ -9,14 +9,8 @@ module.exports = new Schema({
   tel: String,
   hashedPassword: String,
   provider: String,
-  facebook: {
-    name: String,
-    id: String
-  },
-  twitter: {
-    name: String,
-    id: String
-  },
+  facebook: {},
+  twitter: {},
   tokens: {
     facebook: {
       refreshToken: String,
