@@ -35,7 +35,8 @@
   "dependencies": {
     "bluebird": "^2.9.30",
     "lodash": "^3.8.0",
-    "mongoose": "^4.0.3"
+    "mongoose": "^4.0.3",
+    "mongoose-random": "^0.1.1"
   },
   "pre-commit": [
     "test",
